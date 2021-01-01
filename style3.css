@@ -1,0 +1,213 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+	margin: 0;
+	padding:0;
+box-sizing: border-box;
+}
+body{
+	font-family: 'Playfair, sans-serif';
+	background-image: url(pinksky.jpg);
+	background-size: auto;
+	background-repeat: repeat-x;
+	background-size: 100% 25%;
+}
+
+ 
+ body {
+    font-family: 'Playfair, sans-serif';
+    margin: 0;
+    background-color: white;
+ }
+ a {
+   color: white;
+   font-weight: 300;
+   letter-spacing: 2px;
+   text-decoration: none;
+   background: black;
+   padding: 20px 5px;
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+}
+
+
+.main {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 3em 1.5em;
+}
+
+.navigation ul {
+   border: 1px solid white;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+.navigation li {
+   flex: 3;    
+}
+
+ header h1{
+  text-align: center;
+font-family: 'Playfair, sans-serif';
+
+}
+hr{
+	width: 70%;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 2%;
+}
+blockquote{
+text-align: center;
+  border: 1px; 
+  padding: 1em;
+  font-family: 'Playfair, sans-serif';
+}
+img{
+
+	width: 20%;
+}
+.row{
+  padding:50px 0;
+}
+.seperator{
+  margin-bottom: 30px;
+  width:35px;
+  height:3px;
+  background:#777;
+  border:none;
+}
+.title{
+  text-align: center;
+}
+  
+  .row{
+    padding: 50px 0 0;
+  }
+  
+  h1{
+    text-transform: uppercase;
+  }
+  
+  .seperator{
+    margin: 0 auto 10px;
+  }
+}
+.item {
+  position: relative;
+  margin-bottom: 30px;
+  min-height: 1px;
+  float: left;
+}
+  
+.item-in {
+    background: #fff;
+    padding: 40px;
+    position: relative;
+}
+    
+    &:hover:before {
+      width: 100%;
+    }
+   
+    &::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 0%;
+    background: #333333;
+    right: 0px;
+    -webkit-transition: width 0.4s;
+    transition: width 0.4s;
+    }
+  }
+}
+.item{
+    
+  h4{
+      font-size: 18px;
+      margin-top: 25px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    p{
+      font-size: 12px;
+    }
+    a{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #666666;
+      margin-top: 10px;
+}
+    i {
+        opacity: 0;
+        padding-left: 0px;
+        transition: 0.4s;
+        font-size: 24px;
+        display: inline-block;
+        top: 5px;
+        position: relative;
+       }
+      
+      &:hover {
+        text-decoration:none;
+    }
+        i {
+          padding-left: 10px;
+          opacity: 1;
+          font-weight: 300;
+          }
+        }
+      }
+    }
+
+
+<!------Contact---->
+* {
+  box-sizing: border-box;
+  background: url(pinksky.jpg);
+  background-size: 100% 100%;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
